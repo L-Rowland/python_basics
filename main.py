@@ -109,3 +109,50 @@ print(add(615, 728))
 def str(name):
     print(name)
 str("Lucas")
+
+
+# Lists and Loops
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+print(fruits[1])
+
+list_length = len(fruits)
+print("Length of fruits array is = ", list_length)
+
+int1 = [1, 2, 3]
+print(int1)
+print(int1[2])
+
+int2 = [6, 12, 18]
+print(int2)
+print(int2[1])
+
+int3 = [-4, -8, -12]
+print(int3)
+print(int3[0])
+
+int4 = [222, 555, 888]
+print(int4)
+print(int4[1])
+
+int5 = [1000, 1000000, 1000000000]
+print(int5)
+print(int5[2])
+
+
+for i in fruits:
+    print("fruit = ", i)
+
+for i in int3:
+    print("number = ", i)
+
+for i in int4:
+    print("number = ", i)
+
+
+# Dictionaries
+me = {"name": "Lucas", "age": 18, "employed": "no"}
+print(me)
+print(me["name"])
+print(me["age"])
+print(me["employed"])
