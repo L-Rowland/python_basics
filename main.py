@@ -94,3 +94,18 @@ while boolean == "no":
     boolean = input("Enter yes/no:")
 else:
     print("I am Lucas")
+
+
+
+# Python Functions
+def add(num1, num2):
+    return num1 + num2
+
+print(add(5, 7))
+print(add(20, 6))
+print(add(615, 728))
+
+
+def str(name):
+    print(name)
+str("Lucas")
