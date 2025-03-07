@@ -151,8 +151,10 @@ for i in int4:
 
 
 # Dictionaries
-me = {"name": "Lucas", "age": 18, "employed": "no"}
+me = {"name": "Lucas", "age": 18, "employed": False, "friends": ["Ryan", "Harvey", "Josh", "George", "Blessing"]} # Can insert list within dictionary
 print(me)
 print(me["name"])
 print(me["age"])
 print(me["employed"])
+
+print(me["friends"][3])
